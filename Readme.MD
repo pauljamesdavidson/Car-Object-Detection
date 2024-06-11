@@ -4,7 +4,8 @@ This repository contains code for car object detection using YOLOv8, integrated 
 
 ## Demo Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NY0iCn2fcRU" frameborder="0" allowfullscreen></iframe>
+[![Demo Video](https://img.youtube.com/vi/NY0iCn2fcRU/0.jpg)](https://www.youtube.com/watch?v=NY0iCn2fcRU)
+
 
 
 ## Table of Contents
