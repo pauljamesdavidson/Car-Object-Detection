@@ -1,0 +1,5 @@
+train: /Users/pauljames/Documents/Personal Projects/Car object Detection/data/training_images
+val: /Users/pauljames/Documents/Personal Projects/Car object Detection/data/validation_images
+
+nc: 1  
+names: ['object']  
