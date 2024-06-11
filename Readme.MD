@@ -1,4 +1,3 @@
-```
 # Car Object Detection
 
 This repository contains code for car object detection using YOLOv8, integrated with a Streamlit web application. The project detects cars in video files and provides a user interface for uploading videos and viewing the processed results.
@@ -25,11 +24,10 @@ Create and activate a virtual environment (optional but recommended):
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+source venv/bin/activate 
 ```
 
 Install the required packages:
-
 ```bash
 pip install -r requirements.txt
 ```
@@ -64,8 +62,8 @@ Run the training script:
 ```python
 from ultralytics import YOLO
 
-model = YOLO('yolov8n.yaml')
-model.train(data='src/data.yaml', epochs=50, imgsz=640, batch=8, name='car-detection')
+model = YOLO('yolov8n.pt')
+model.train(data='src/data.yaml', epochs=100, imgsz=640)
 ```
 
 **After training:**
@@ -114,7 +112,3 @@ A demo video showing the Streamlit application in action can be found in [videos
 
 The data folder contains the images used for training and testing. Due to size constraints, the folder is not included in this repository. You can download the dataset from Kaggle: [Car Object Detection Dataset](https://www.kaggle.com/dataset).
 
-## License
-
-[Add your license here]
-```
